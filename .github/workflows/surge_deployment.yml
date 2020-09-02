@@ -1,9 +1,7 @@
-name: React App deploy to surge
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+
+name: Deploy Webiste
+
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
